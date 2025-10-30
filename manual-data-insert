@@ -1,0 +1,21 @@
+UPDATE STG3_NETSIRE_ADM.NS_POSITION_OF_TRUST_LIST_3
+SET position_of_trust = 'Trusted man',
+    entity_position_of_trust = 'Trusting company 1'
+WHERE organization_id = 11012786 AND participant_id = 10102328;
+
+UPDATE STG3_NETSIRE_ADM.NS_POSITION_OF_TRUST_LIST_3
+SET position_of_trust = 'Trusted junior',
+    entity_position_of_trust = 'Trusting company 2'
+WHERE organization_id = 11012786 AND participant_id = 10102324;
+
+UPDATE STG3_NETSIRE_ADM.NS_POSITION_OF_TRUST_LIST_3
+SET position_of_trust = 'Member of Bård',
+    entity_position_of_trust = 'Trusting company 3'
+WHERE organization_id = 11012786 AND participant_id = 10102325;
+
+UPDATE STG3_NETSIRE_ADM.NS_POSITION_OF_TRUST_LIST_3
+SET position_of_trust = 'Head of seas',
+    entity_position_of_trust = 'Globe'
+WHERE organization_id = 11012786 AND participant_id = 10102326;
+
+COMMIT;
